@@ -12,6 +12,8 @@ html {
     padding: 24px 24px;
 }
 
+
+
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
@@ -139,12 +141,17 @@ a:hover, a:focus {
 /* Medium devices (tablets, 768px and up) */
 
 @media (min-width: 768px) {
+
+    html {
+        padding: 48px 48px 24px;
+    }
+    body {
+        max-width: 42em;
+        margin: 0 auto;
+    }
     h1 {
         font-size: 58px;
         line-height: 64px;
-    }
-    html {
-        padding: 48px 48px 24px;
     }
 }
 
