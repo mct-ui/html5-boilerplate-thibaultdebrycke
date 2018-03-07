@@ -72,7 +72,11 @@ p, ol, ul, dl, table, address, figure {
     margin: 0 0 24px;
 }
 
-ul, ol, blockquote {
+ul, ol {
+    padding-left: 24px;
+}
+
+blockquote {
     font-style: italic;
     font-size: 23px;
     line-height: 32px;
@@ -80,7 +84,9 @@ ul, ol, blockquote {
     font-family: "Times New Roman", serif;
 }
 
-li ul, li ol {}
+li ul, li ol {
+    margin-bottom: 0
+}
 
 blockquote * {
     font-size: inherit;
@@ -94,7 +100,12 @@ figcaption {
     color: Grey;
 }
 
-hr {}
+hr {
+    border: 0;
+    height: 1px;
+    background: LightGrey;
+    margin: 0 0 24px;
+}
 
 a {}
 
