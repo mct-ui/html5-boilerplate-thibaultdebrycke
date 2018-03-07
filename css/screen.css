@@ -1,34 +1,19 @@
-/*
-    Elements: Page
-    ---
-    Default markup for page level elements
-*/
-
 html {
     font-size: 16px;
-    line-height: 1.5;
-    font-family: "Helvetica Neue", Helvetica, arial, sans-serif;
+    list-style: 1.5;
+    font-family: "helvetica Neue", helvetica, arial, sans-serif;
     color: #111;
-    padding: 24px 24px;
+    padd: 24px 24px 0;
 }
 
-
-
-/*
- * Remove text-shadow in selection highlight:
- * https://twitter.com/miketaylr/status/12228805301
- *
- * Customize the background color to match your design.
- */
-
 ::-moz-selection {
-    background: #e85e00;
+    background: #E85E00;
     color: white;
     text-shadow: none;
 }
 
 ::selection {
-    background: #e85e00;
+    background: #E85E00;
     color: white;
     text-shadow: none;
 }
@@ -38,14 +23,8 @@ img {
     vertical-align: top;
 }
 
-/*
-    Elements: typography
-    ---
-    Default markup for typographic elements
-*/
-
 h1 {
-    font-family: "Times New Roman", serif;
+    font-family: "times new roman", serif;
     font-size: 36px;
     font-weight: normal;
     line-height: 40px;
@@ -59,7 +38,7 @@ h2 {
 }
 
 h3 {
-    font-size: 23px;
+    font-size: 18px;
     line-height: 24px;
     margin: 0 0 24px;
 }
@@ -83,11 +62,11 @@ blockquote {
     font-size: 23px;
     line-height: 32px;
     margin: 0 0 24px;
-    font-family: "Times New Roman", serif;
+    font-family: "times new roman", serif;
 }
 
 li ul, li ol {
-    margin-bottom: 0
+    margin-bottom: 0;
 }
 
 blockquote * {
@@ -99,27 +78,27 @@ figcaption {
     font-size: 12px;
     line-height: 16px;
     padding-top: 8px;
-    color: Grey;
+    color: grey;
 }
 
 hr {
     border: 0;
     height: 1px;
-    background: LightGrey;
+    background: lightgrey;
     margin: 0 0 24px;
 }
 
 a {
-    color: RoyalBlue;
-    transition: all .ls ease-in-out;
-}
-
-a:visited, a:active {
-    color: BlueViolet;
+    color: royalBlue;
+    transition: all .1s easi-in-out;
 }
 
 a:hover, a:focus {
-    color: Crimson;
+    color: crimson;
+}
+
+a:visited, a:active {
+    color: Blueviolet;
 }
 
 /*
@@ -134,14 +113,13 @@ a:hover, a:focus {
    No media query since this is the default in Bootstrap
 */
 
-/* Small devices (landscape phones, 576px and up) */
+/* Small devices (l"andscape phones, 576px and up) */
 
 @media (min-width: 576px) {}
 
 /* Medium devices (tablets, 768px and up) */
 
 @media (min-width: 768px) {
-
     html {
         padding: 48px 48px 24px;
     }
